@@ -1,0 +1,13 @@
+@use 'custom';
+
+// import components
+@use 'components/button';
+@use 'components/mixins';
+
+//import sections
+@use 'sections/navbar';
+@use 'sections/hero';
+@use 'sections/services';
+
+
+
