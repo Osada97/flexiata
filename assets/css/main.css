@@ -10906,4 +10906,27 @@ textarea.form-control-lg {
   background-color: #C00815;
 }
 
+.footer-csoz {
+  background-image: url("../../assets/img/footer/map.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.footer-csoz .cir-csoz {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-csoz .cir-csoz i {
+  color: #221E3A;
+}
+.footer-csoz .footertop-csoz {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2588235294);
+}
+.footer-csoz p, .footer-csoz li, .footer-csoz a {
+  font-size: 14px;
+}
+
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,30 @@
+@use '../custom' as *;
+
+.footer-csoz{
+    background-image: url('../../assets/img/footer/map.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    //social media buttons
+    .cir-csoz{
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+            i{
+                color: $darkblue;
+            }
+        
+    }
+    .footertop-csoz{
+        border-bottom: 1px solid #FFFFFF42;
+    }
+
+    p,li,a{
+        font-size: 14px;
+    }
+}
