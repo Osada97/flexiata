@@ -7,6 +7,7 @@ $altlight:#27437a;
 $altdark:  #E6E6E6;
 $darkfont:  #818181;
 $darkblue:#221E3A;
+$serdark:#363232;
 
 
 // import the functions & variables
@@ -18,7 +19,8 @@ $custom-theme-colors: (
   "altlight": $altlight,
   "altdark":$altdark,
   "darkfont":$darkfont,
-  "darkblue":$darkblue
+  "darkblue":$darkblue,
+  "serdark":$serdark
 );
 
 // merge the maps to add new theme colors

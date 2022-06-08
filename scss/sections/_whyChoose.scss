@@ -1,0 +1,27 @@
+@use '../custom' as *;
+
+.choose-csoz{
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+
+    h1{
+        font-size: 36px;
+        margin-bottom: 25px;
+    }
+
+    // tabs buttons
+    .whybut-csoz{
+        padding: 16px 12px;
+        border-radius: 0 !important;
+        background-color: $altdark;
+        font-weight: 600;
+        color: $dark;
+    }
+
+    //button styles
+    .btn-csoz{
+        &:focus{
+            box-shadow: none;
+        }
+    }
+}
