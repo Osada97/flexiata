@@ -1,0 +1,62 @@
+@use '../custom' as *;
+
+// customer image
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    background-color: #716F80;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 1;
+}
+.carousel-csoz{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+    //carousel content styles
+    .client-content-csoz{
+        z-index: 1;
+        h1{
+            font-size: 35px;
+            margin-bottom: 50px;
+        }
+        p{
+            font-weight: 400;
+            color: #484848;
+            margin-bottom: 40px;
+        }
+
+        .client-data-csoz{
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+//background image
+.bacg-csoz{
+    top: 15%;
+    left: 0;
+    z-index: -1;
+}
+
+// buttons styles
+.csbtn-csoz{
+    background: none;
+    border: none;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.line{
+    width: 120px;
+    height: 1px;
+    background-color: $primary;
+}
