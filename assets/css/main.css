@@ -10815,6 +10815,13 @@ textarea.form-control-lg {
   text-decoration: none;
   font-size: 12px;
 }
+.serives-csoz .card-csoz svg {
+  width: 100%;
+  height: 100%;
+}
+.serives-csoz .card-csoz svg path {
+  transition: 0.3s ease;
+}
 .serives-csoz .card-csoz:after {
   content: "";
   position: absolute;
@@ -10833,6 +10840,9 @@ textarea.form-control-lg {
 }
 .serives-csoz .card-csoz:hover:after {
   opacity: 1;
+}
+.serives-csoz .card-csoz:hover svg path {
+  fill: #E63D30;
 }
 .serives-csoz .section-image-csoz {
   position: absolute;
@@ -10893,9 +10903,17 @@ textarea.form-control-lg {
   padding-top: 200px;
   padding-bottom: 80px;
 }
+.worksec-csoz .content {
+  width: 70%;
+}
+@media (max-width: 991.98px) {
+  .worksec-csoz .content {
+    width: 65%;
+  }
+}
 @media (max-width: 767.98px) {
   .worksec-csoz .content {
-    width: 100% !important;
+    width: 100%;
   }
 }
 .worksec-csoz .imgorwo-csoz {
@@ -10904,6 +10922,23 @@ textarea.form-control-lg {
 }
 .worksec-csoz .redbut-csoz {
   background-color: #C00815;
+}
+
+.imcon-csoz {
+  margin-top: 100px;
+}
+
+.abim-csoz {
+  position: absolute;
+  width: 300px;
+  top: 5%;
+  right: 0;
+  text-align: right;
+}
+@media (max-width: 767.98px) {
+  .abim-csoz {
+    display: none;
+  }
 }
 
 .footer-csoz {

@@ -5,9 +5,13 @@
     padding-bottom: 80px;
 
     .content{
-        @include media-breakpoint-down(md){
-            width: 100% !important;
+        @include media-breakpoint-down(lg){
+            width: 65% ;
         }
+        @include media-breakpoint-down(md){
+            width: 100%;
+        }
+        width: 70%;
     }
 
     //image styles
@@ -19,4 +23,20 @@
     .redbut-csoz{
         background-color: #C00815;
     }
+}
+// image container
+.imcon-csoz{
+    margin-top: 100px;
+}
+
+//image boxes
+.abim-csoz{
+    @include media-breakpoint-down(md){
+        display: none;
+    }
+    position: absolute;
+    width: 300px;
+    top: 5%;
+    right: 0;
+    text-align: right;
 }
