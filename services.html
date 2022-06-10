@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexiata - Home page</title>
+
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <!-- bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light py-3">
+      <div class="container-xl">
+        <a href="/index.html" class="navbar-barand text-decoration-none">
+          <img src="./assets/img/logo.png" alt="fkexiata" />
+        </a>
+        <!-- toggle button for mobile nav -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main-nav"
+          aria-controls="main-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- navbar links -->
+        <div
+          class="collapse navbar-collapse justify-content-end align-center"
+          id="main-nav"
+        >
+          <ul class="navbar-nav menu">
+            <li class="nav-item px-4">
+              <a href="/" class="nav-link text-dark fw-bold"> Home </a>
+            </li>
+            <li class="nav-item px-4">
+              <a
+                href="./services.html"
+                class="nav-link active text-dark fw-bold"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item px-4">
+              <a href="#" class="nav-link text-dark fw-bold">Portfolio</a>
+            </li>
+            <li class="nav-item px-4">
+              <a href="#" class="nav-link text-dark fw-bold">About Us</a>
+            </li>
+            <li class="nav-item px-4">
+              <a href="#" class="nav-link text-dark fw-bold">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero section -->
+    <section class="bg-secondary d-flex justify-content-center">
+      <div
+        class="hero-csoz container-xl min-vh-100 justify-content-center position-relative d-flex flex-column justify-content-between pb-3 overflow-hidden"
+      >
+        <div
+          class="herocol-csoz rehero-csoz d-flex flex-column justify-content-center align-items-md-start align-items-center text-center text-md-start pe-sm-0 position-relative"
+          style="z-index: 2"
+        >
+          <div class="werow-csoz d-flex mb-5">
+            <h5 class="fw-bold fs-6 text-uppercase">Welcome &nbsp;</h5>
+            <h5 class="coloured-csoz fw-bold fs-6 text-uppercase">
+              To Flexiata
+            </h5>
+          </div>
+          <h3 class="text-altlight fw-bold">Development and Consultancy</h3>
+          <p class="lh-base w-75">
+            The Flexiata team has solid expertise in application development,
+            ranging from mobile, web, all the way up to full-fledged enterprise
+            applications, DevOps, and cloud development.
+          </p>
+          <!-- image section -->
+          <div class="csservice-csoz position-absolute d-none d-md-block">
+            <img src="./assets/img/services_page/hero.png" alt="hero" />
+          </div>
+        </div>
+
+        <!-- grid row -->
+        <div class="row g-3 align-items-stretch">
+          <div class="col-sm-6 col-lg-3 d-flex align-items-stretch">
+            <div class="bg-danger text-center p-4 rounded text-light h-100">
+              <h5 class="mb-3 fw-bold">DevOps</h5>
+              <p class="lh-base fw-normal">
+                For automation and integration of process between IT teams and
+                software to facilitate streamlined, continuous deployment.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3 d-flex align-items-stretch">
+            <div class="bg-danger text-center p-4 rounded text-light h-100">
+              <h5 class="mb-3 fw-bold">Consultancy</h5>
+              <p class="lh-base fw-normal">
+                We offer you expert opinions on every aspect when developing
+                your software.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3 d-flex align-items-stretch">
+            <div class="bg-danger text-center p-4 rounded text-light h-100">
+              <h5 class="mb-3 fw-bold">Development</h5>
+              <p class="lh-base fw-normal">
+                Creating integrated development environments, source code, and
+                all configuration management in the cloud..
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3 d-flex align-items-stretch">
+            <div class="bg-danger text-center p-4 rounded text-light h-100">
+              <h5 class="mb-3 fw-bold">Mobile Development</h5>
+              <p class="lh-base fw-normal">
+                The Flexiata team develops world-class mobile applications
+                whether it is iOS, Android, or cross-platform.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-altash">
+      <div class="container-xl">
+        <div class="row justify-content-center">
+          <div
+            class="col-md-5 py-2 py-md-5 d-flex justify-content-center align-center"
+          >
+            <div
+              class="imgcontainer-csoz d-flex justify-content-center align-center"
+            >
+              <img
+                src="./assets/img/services_page/cloud.png"
+                class="img-fluid"
+                style="object-fit: contain"
+                alt="cloud"
+              />
+            </div>
+          </div>
+          <div
+            class="col-md-7 py-2 py-md-5 d-flex justify-content-center align-center flex-column p-5"
+          >
+            <h3 class="text-altlight fw-bold mb-5 text-center text-md-start">
+              Cloud Migration
+            </h3>
+            <p class="fw-normal">
+              With businesses going global, your system infrastructure is
+              expected to fit and match international standards. This is to make
+              sure it is secure, robust, and scalable. It takes a group of
+              specialists to maintain this status.
+            </p>
+
+            <p class="fw-normal">
+              A systems infrastructure foundation could encapsulate core
+              networks, virtual components, software, hardware, databases, data
+              warehouses, processes, and procedures. This is an infrastructure
+              that should be managed by specialists. It is not advisable to rely
+              on a layman to establish or maintain such complex system
+              infrastructures.
+            </p>
+
+            <p class="fw-normal">
+              Setting up a powerful systems infrastructure requires planning a
+              steady and dependable execution. In order for your system
+              infrastructure solution to be future proof, the infrastructure
+              setup should be robust. When organizations become more mature and
+              technology advances, a variety of infrastructure types could be
+              used. Our experts are aware of the infrastructure types, its
+              breakdown, and the applications of each. With our expertise, your
+              business can receive an optimized, maintainable system
+              infrastructure.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-secondary">
+      <div class="container-xl">
+        <div class="row justify-content-center">
+          <div
+            class="col-md-5 order-md-2 py-2 py-md-5 d-flex justify-content-center align-center"
+          >
+            <div
+              class="imgcontainer-csoz d-flex justify-content-center align-center"
+            >
+              <img
+                src="./assets/img/services_page/servers.png"
+                class="img-fluid"
+                style="object-fit: contain"
+                alt="cloud"
+              />
+            </div>
+          </div>
+          <div
+            class="col-md-7 order-md-1 py-2 py-md-5 d-flex justify-content-center align-center flex-column p-5"
+          >
+            <h3 class="text-altlight fw-bold mb-5 text-center text-md-start">
+              Systems Infrastructure
+            </h3>
+            <p class="fw-normal">
+              If you are in need of transferring your applications, associated
+              data, or any other resources from on-premises data centers all the
+              way up to the cloud, our team got the perfect blend of expertise.
+            </p>
+
+            <p class="fw-normal">
+              You should consider moving your data to the cloud for multiple
+              different reasons. With years of experience in cloud migration, we
+              know that cloud infrastructure will take your organization into
+              new levels of agility. In addition to this, the simplicity in
+              cloud solutions drives operational efficiency.
+            </p>
+
+            <p class="fw-normal">
+              When our team lays their hands on a cloud migration project, they
+              carefully lay out and devise a cloud migration strategy. During
+              this process, we discuss amongst the team what applications should
+              be moved and considers all possible circumstances associated with
+              it.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-altash">
+      <div class="container-xl">
+        <div class="row justify-content-center">
+          <div
+            class="col-md-5 py-2 py-md-5 d-flex justify-content-center align-center"
+          >
+            <div
+              class="imgcontainer-csoz d-flex justify-content-center align-center"
+            >
+              <img
+                src="./assets/img/services_page/file.png"
+                class="img-fluid"
+                style="object-fit: contain"
+                alt="cloud"
+              />
+            </div>
+          </div>
+          <div
+            class="col-md-7 py-2 py-md-5 d-flex justify-content-center align-center flex-column bg-condark p-5"
+          >
+            <h3 class="text-light fw-bold mb-5 text-center text-md-start">
+              Web Development
+            </h3>
+            <p class="fw-normal text-light">
+              With businesses going global, your system infrastructure is
+              expected to fit and match international standards. This is to make
+              sure it is secure, robust, and scalable. It takes a group of
+              specialists to maintain this status.
+            </p>
+
+            <p class="fw-normal text-light">
+              A systems infrastructure foundation could encapsulate core
+              networks, virtual components, software, hardware, databases, data
+              warehouses, processes, and procedures. This is an infrastructure
+              that should be managed by specialists. It is not advisable to rely
+              on a layman to establish or maintain such complex system
+              infrastructures.
+            </p>
+
+            <p class="fw-normal text-light">
+              Setting up a powerful systems infrastructure requires planning a
+              steady and dependable execution. In order for your system
+              infrastructure solution to be future proof, the infrastructure
+              setup should be robust. When organizations become more mature and
+              technology advances, a variety of infrastructure types could be
+              used. Our experts are aware of the infrastructure types, its
+              breakdown, and the applications of each. With our expertise, your
+              business can receive an optimized, maintainable system
+              infrastructure.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-altash">
+      <div class="container-xl">
+        <div class="row justify-content-center">
+          <div
+            class="col-md-5 order-md-2 py-2 py-md-5 d-flex justify-content-center align-center"
+          >
+            <div
+              class="imgcontainer-csoz d-flex justify-content-center align-center"
+            >
+              <img
+                src="./assets/img/services_page/ecommerce.png"
+                class="img-fluid"
+                style="object-fit: contain"
+                alt="cloud"
+              />
+            </div>
+          </div>
+          <div
+            class="col-md-7 order-md-1 py-2 py-md-5 d-flex justify-content-center align-center flex-column p-5"
+          >
+            <h3 class="text-altlight fw-bold mb-5 text-center text-md-start">
+              Ecommerce Web Applications
+            </h3>
+            <p class="fw-normal">
+              Flexiata offers comprehensive business consulting and development
+              services to create a whole new range of opportunities for your
+              business via an eCommerce store.
+            </p>
+
+            <p class="fw-normal">
+              eCommerce is the new way of shopping and it is your virtual
+              outlet! It offers businesses a wide reach and a plethora of
+              opportunities when done right. It enables monetization really
+              quickly – whether it is a small or a medium business.
+            </p>
+
+            <p class="fw-normal">
+              Whether it is a Business to Business, Business to Consumer,
+              Consumer to Consumer or any other type of e-commerce business,
+              Flexiata has the most tailored eCommerce website design and
+              development approaches. Our design and development methods enable
+              achieving strategic success.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-light">
+      <div class="container-xl">
+        <div class="row justify-content-center">
+          <div
+            class="col-md-5 py-2 py-md-5 d-flex justify-content-center align-center"
+          >
+            <div
+              class="imgcontainer-csoz d-flex justify-content-center align-center"
+            >
+              <img
+                src="./assets/img/services_page/uiux.png"
+                class="img-fluid"
+                style="object-fit: contain"
+                alt="cloud"
+              />
+            </div>
+          </div>
+          <div
+            class="col-md-7 py-2 py-md-5 d-flex justify-content-center align-center flex-column p-5"
+          >
+            <h3 class="text-altlight fw-bold mb-5 text-center text-md-start">
+              UI/UX Design
+            </h3>
+            <p class="fw-normal">
+              User Interface & User Experience is something we take great pride
+              in doing. Simply because our UI/UX engineers have the best design
+              taste!
+            </p>
+
+            <p class="fw-normal">
+              It is important to remember that the right UI/UX design will bring
+              in more customers, generate customer loyalty, and cutback any
+              customer complaints. Getting UI UX right is a continuous process
+              of learning and feedback.
+            </p>
+
+            <p class="fw-normal">
+              The perfect design for you cannot fit into any “box”. Although
+              there is no magic formula, the Flexiata team practices the
+              usability engineering lifecycle. Just like we test out any piece
+              of developed code, we also test out designs. By doing so, our team
+              aids you in avoiding problems that may be otherwise encountered
+              too late, by producing an all-inclusive design. This saves you
+              from huge price tags. The interactive design prototypes we produce
+              will give you a real look and feel of your end product.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-altash">
+      <div class="container-xl">
+        <div class="row justify-content-center">
+          <div
+            class="col-md-5 order-md-2 py-2 py-md-5 d-flex justify-content-center align-center"
+          >
+            <div
+              class="imgcontainer-csoz d-flex justify-content-center align-center"
+            >
+              <img
+                src="./assets/img/services_page/cms.png"
+                class="img-fluid"
+                style="object-fit: contain"
+                alt="cloud"
+              />
+            </div>
+          </div>
+          <div
+            class="col-md-7 order-md-1 py-2 py-md-5 d-flex justify-content-center align-center flex-column bg-condark p-5"
+          >
+            <h3 class="text-light fw-bold mb-5 text-center text-md-start">
+              Content Management Systems (CMS)
+            </h3>
+            <p class="fw-normal text-light">
+              As the name suggests, a Content Management System enables you to
+              easily create, manage, and control the content on your website or
+              web application.
+            </p>
+
+            <p class="fw-normal text-light">
+              You don’t have to worry about getting a developer to change
+              content for you. You can easily do this for yourself with a CMS.
+              With our CMS solutions, you will be in charge of your website and
+              it’s back-end processes to meet your end user’s expectations, with
+              a well thought out content strategy.
+            </p>
+
+            <p class="fw-normal text-light">
+              Our team will be with you to develop a system that meets your
+              requirements a hundred percent. We go that extra mile to ensure
+              you have all the control you need. Based on your needs and your
+              budget, we come up with technically feasible solutions that enable
+              you to have all your core functionality.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-altash position-relative">
+      <div class="container-xl">
+        <div class="row justify-content-center">
+          <div
+            class="col-md-5 py-2 py-md-5 d-flex justify-content-center align-center"
+          >
+            <div
+              class="imgcontainer-csoz d-flex justify-content-center align-center"
+            >
+              <img
+                src="./assets/img/services_page/seo.png"
+                class="img-fluid"
+                style="object-fit: contain"
+                alt="cloud"
+              />
+            </div>
+          </div>
+          <div
+            class="col-md-7 py-2 py-md-5 d-flex justify-content-center align-center flex-column p-5"
+          >
+            <h3 class="text-altlight fw-bold mb-5 text-center text-md-start">
+              SEO Service
+            </h3>
+            <p class="fw-normal">
+              Search Engine Optimization (SEO) is the specialized means by which
+              your website’s visibility can be increased upon searched on
+              Google, Bing, Yahoo! or any other search engine.
+            </p>
+
+            <p class="fw-normal">
+              SEO optimization is one of the main reasons why businesses are
+              successful at present. Rarely do a person click on the second page
+              of a search result. Have you? Amongst the billions of searches a
+              day, if your website appears on the first page of the result, you
+              will see solid results!
+            </p>
+
+            <p class="fw-normal">
+              Search engines are intelligent. So is our team. We at Flexiata
+              understand the various algorithms and techniques the search engine
+              giants such as Google use to rank web pages. In other words, we
+              are SEO experts! Flexiata has capitalized on the powerful tactics
+              in achieving record-breaking SEO results.
+            </p>
+            <p class="fw-normal">
+              By implementing robot directives, structured data, meta tags, and
+              other technical elements the right way, the ranking eventually
+              gets better. Hence SEO optimization employs the use of a variety
+              of online and offline techniques to achieve this objective.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- background box -->
+      <div class="position-absolute boexes3-csoz d-none d-md-block">
+        <img src="./assets/img/services_page/boxes3.png" alt="boxes" />
+      </div>
+    </section>
+
+    <section class="bg-light">
+      <div class="container-xl">
+        <div class="row justify-content-center">
+          <div
+            class="col-md-5 order-md-2 py-2 py-md-5 d-flex justify-content-center align-center"
+          >
+            <div
+              class="imgcontainer-csoz d-flex justify-content-center align-center"
+            >
+              <img
+                src="./assets/img/services_page/webhosting.png"
+                class="img-fluid"
+                style="object-fit: contain"
+                alt="cloud"
+              />
+            </div>
+          </div>
+          <div
+            class="col-md-7 order-md-1 py-2 py-md-5 d-flex justify-content-center align-center flex-column p-5"
+          >
+            <h3 class="text-altlight fw-bold mb-5 text-center text-md-start">
+              Web Hosting Solutions
+            </h3>
+            <p class="fw-normal">
+              Flexiata works with you to understand the needs of your site or
+              application to provide top-notch web hosting solutions.
+            </p>
+
+            <p class="fw-normal">
+              Detailed the requirement of the website is, the better we can find
+              a suitable solution. This is why we collaboratively figure this
+              out to provide optimized web hosting solutions.
+            </p>
+
+            <p class="fw-normal">
+              At Flexiata , we take security, data, and many other factors
+              seriously. Hence, we work through agreed-upon Service Level
+              Agreements (SLA) with total transparency and assure your safety a
+              hundred percent.
+            </p>
+            <p class="fw-normal">
+              Hence, we guarantee the provision of reliable hosting solutions
+              for our customers via a wide range of web hosting solutions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer-csoz bg-darkblue text-lg-start pt-5">
+      <div class="footertop-csoz container-fluid text-center text-sm-start">
+        <div class="container-xl py-4">
+          <div class="row g-3 justify-content-between">
+            <div class="col-12 col-sm-6 col-md-2 p-2 p-md-1">
+              <div class="mb-4">
+                <img
+                  src="./assets/img/footer/Final-logo-NEW-01 (1) 2.png"
+                  class="img-fluid"
+                  alt="footer flexiata"
+                />
+              </div>
+              <p class="text-light lh-sm">
+                Summit7Agency is Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Vestibu eget iaculis purus
+              </p>
+              <div class="row mt-4">
+                <div class="col px-0 py-1">
+                  <a href="#" class="d-inline-block">
+                    <div class="bg-light cir-csoz">
+                      <i class="bi bi-facebook"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="col px-0 py-1">
+                  <a href="#" class="d-inline-block">
+                    <div class="bg-light cir-csoz">
+                      <i class="bi bi-twitter"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="col px-0 py-1">
+                  <a href="#" class="d-inline-block">
+                    <div class="bg-light cir-csoz">
+                      <i class="bi bi-instagram"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="col px-0 py-1">
+                  <a href="#" class="d-inline-block">
+                    <div class="bg-light cir-csoz">
+                      <i class="bi bi-linkedin"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-auto p-2 p-md-1">
+              <div class="mb-4">
+                <h5 class="text-light fw-bold">Quick Links</h5>
+              </div>
+              <ul class="p-0 list-unstyled">
+                <li class="p-2">
+                  <a href="#" class="text-decoration-none text-light">Home</a>
+                </li>
+                <li class="p-2">
+                  <a href="#" class="text-decoration-none text-light"
+                    >Services</a
+                  >
+                </li>
+                <li class="p-2">
+                  <a href="#" class="text-decoration-none text-light"
+                    >Portfolio</a
+                  >
+                </li>
+                <li class="p-2">
+                  <a href="#" class="text-decoration-none text-light">About</a>
+                </li>
+                <li class="p-2">
+                  <a href="#" class="text-decoration-none text-light"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-md-auto p-2 p-md-1">
+              <div class="mb-4">
+                <h5 class="text-light fw-bold">Services</h5>
+              </div>
+              <ul class="p-0 list-unstyled">
+                <li class="text-light p-2">Development and Consultancy</li>
+                <li class="text-light p-2">Cloud Migration</li>
+                <li class="text-light p-2">Ecommerce</li>
+                <li class="text-light p-2">Web Development</li>
+                <li class="text-light p-2">UI/UX Design</li>
+                <li class="text-light p-2">SEO Service</li>
+              </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-md-auto p-2 p-md-1">
+              <div class="mb-4">
+                <h5 class="text-light fw-bold">Contact Info</h5>
+              </div>
+              <div
+                class="d-flex text-light justify-content-center justify-content-sm-start"
+              >
+                <i class="bi bi-geo-alt me-3"></i>
+                <p>33 Tullimbar Circuit <br />Vermont South VIC 3133</p>
+              </div>
+              <div
+                class="d-flex text-light justify-content-center justify-content-sm-start"
+              >
+                <i class="bi bi-telephone me-3"></i>
+                <p>(+61) 3 9119 3003</p>
+              </div>
+              <div
+                class="d-flex text-light justify-content-center justify-content-sm-start"
+              >
+                <i class="bi bi-envelope me-3"></i>
+                <p>hello@flexiata.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid py-4">
+        <div class="container-xl text-center">
+          <p class="text-light m-0">
+            Copyrights 2022 © Flexiata. All Rights Reserved. ABN: 91646783646
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

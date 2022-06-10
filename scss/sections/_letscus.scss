@@ -1,0 +1,32 @@
+@use '../custom' as *;
+
+.rota-csoz{
+    align-items: flex-start;
+    margin-bottom: 0 !important;
+    position: absolute;
+    top: 50%;
+    transform: translate(50%,-50%) rotate(-90deg);
+
+}
+
+.letscs-csoz{
+    background-color: #C00815;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -25px;
+    h1{
+        font-weight: 600;
+        margin-bottom: 35px;
+        
+        span{
+            color: yellow;
+        }
+    }
+    p{
+        width: 80%;
+        margin-bottom: 35px;
+
+    }
+}

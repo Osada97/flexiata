@@ -1,0 +1,20 @@
+@use '../../custom' as *;
+
+.csservice-csoz{
+    bottom: 0;
+    right: 0;
+    transform: translate(0%, 0%);
+    min-width: 500px;
+    min-height: 350px;
+}
+
+.rehero-csoz{
+    min-height: 65vh;
+    @include media-breakpoint-down(md){
+        width: 100% !important;
+    }
+
+    h3{
+        font-size: 30px;
+    }
+}

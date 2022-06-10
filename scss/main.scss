@@ -12,7 +12,12 @@
 @use 'sections/counter';
 @use 'sections/ourwork';
 @use 'sections/ourtestimonials';
+@use 'sections/letscus';
 @use 'sections/footer';
+
+//import services section
+@use 'sections/services_page/_sections';
+@use 'sections/services_page/serviceshero';
 
 
 

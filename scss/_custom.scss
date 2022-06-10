@@ -3,13 +3,15 @@ $primary:  #E63D30;
 $secondary: #F8F8F8;
 $dark:#000;
 $light:#fff;
+$danger:#C00815;
 
 $altlight:#27437a;
 $altdark:  #E6E6E6;
+$altash:  #E5E5E5;
 $darkfont:  #818181;
 $darkblue:#221E3A;
 $serdark:#363232;
-
+$condark: #3E3E3E;
 
 // import the functions & variables
 @import "../node_modules/bootstrap/scss/functions";
@@ -21,7 +23,9 @@ $custom-theme-colors: (
   "altdark":$altdark,
   "darkfont":$darkfont,
   "darkblue":$darkblue,
-  "serdark":$serdark
+  "serdark":$serdark,
+  "altash":$altash,
+  "condark":$condark
 );
 
 // merge the maps to add new theme colors
