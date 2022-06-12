@@ -10849,7 +10849,7 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .herocol-csoz {
-    padding-bottom: 5rem;
+    padding-bottom: 1rem;
     justify-content: center !important;
   }
 }
@@ -11055,7 +11055,7 @@ textarea.form-control-lg {
 .serives-csoz .section-image-csoz {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 1%;
 }
 
 .services-section {
@@ -11209,7 +11209,7 @@ textarea.form-control-lg {
   margin-bottom: 0 !important;
   position: absolute;
   top: 50%;
-  transform: translate(50%, -50%) rotate(-90deg);
+  transform: translate(45%, -50%) rotate(-90deg);
 }
 
 .letscs-csoz {
@@ -11255,8 +11255,20 @@ textarea.form-control-lg {
   font-size: 14px;
 }
 
+@media (min-width: 768px) {
+  .contafakebg-csoz {
+    background: linear-gradient(to right, #3E3E3E 50%, transparent 0%);
+  }
+}
+
+@media (min-width: 768px) {
+  .contafakebgrg-csoz {
+    background: linear-gradient(to left, #3E3E3E 50%, transparent 0%);
+  }
+}
+
 .imgcontainer-csoz {
-  width: 65%;
+  width: 80%;
 }
 
 .boexes3-csoz {
@@ -11273,7 +11285,7 @@ textarea.form-control-lg {
 }
 
 .rehero-csoz {
-  min-height: 65vh;
+  min-height: 75vh;
 }
 @media (max-width: 767.98px) {
   .rehero-csoz {

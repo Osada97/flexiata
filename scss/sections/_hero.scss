@@ -6,7 +6,7 @@
 .herocol-csoz{
     padding-top: $spacer * 5;
     @include media-breakpoint-down(sm){
-        padding-bottom: $spacer * 5;
+        padding-bottom: $spacer * 1;
         justify-content: center !important;
     }
     

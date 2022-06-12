@@ -1,5 +1,19 @@
+@use '../../custom' as *;
+
+//section grey background
+.contafakebg-csoz{
+    @include media-breakpoint-up(md){
+        background: linear-gradient(to right, #3E3E3E 50%, transparent 0%);
+    }
+}
+.contafakebgrg-csoz{
+    @include media-breakpoint-up(md){
+        background: linear-gradient(to left, #3E3E3E 50%, transparent 0%);
+    }
+}
+
 .imgcontainer-csoz{
-    width: 65%;
+    width: 80%;
 }
 //third background box
 .boexes3-csoz{
