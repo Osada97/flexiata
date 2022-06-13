@@ -10812,6 +10812,10 @@ textarea.form-control-lg {
 .menu a {
   padding-top: 0.125rem;
   padding-bottom: 0.0625rem;
+  transform: color 0.5s ease-in;
+}
+.menu a:hover {
+  color: #E63D30 !important;
 }
 .menu .nav-link.active {
   position: relative;
@@ -11283,6 +11287,26 @@ textarea.form-control-lg {
 .boexes3-csoz {
   top: 3%;
   left: 0;
+}
+
+.bgimg-csoz {
+  width: 180px;
+}
+@media (max-width: 767.98px) {
+  .bgimg-csoz {
+    display: none;
+  }
+}
+
+.bgtpimg-csoz {
+  top: 0;
+  right: 0;
+  transform: translateY(-40%);
+}
+@media (max-width: 767.98px) {
+  .bgtpimg-csoz {
+    display: none;
+  }
 }
 
 .csservice-csoz {

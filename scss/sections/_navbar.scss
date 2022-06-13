@@ -22,6 +22,11 @@
     a{
         padding-top: 0.125rem;
         padding-bottom: .0625rem;
+        transform: color 0.5s ease-in;
+
+        &:hover{
+            color: $primary !important;
+        }
 
     }
     .nav-link.active{

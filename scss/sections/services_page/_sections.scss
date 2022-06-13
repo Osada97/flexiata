@@ -20,3 +20,20 @@
     top: 3%;
     left: 0;
 }
+
+//background image section bottom
+.bgimg-csoz{
+    @include media-breakpoint-down(md){
+        display: none;
+    }
+    width: 180px;
+}
+//background top image section bottom
+.bgtpimg-csoz{
+    @include media-breakpoint-down(md){
+        display: none;
+    }
+   top: 0;
+   right: 0;
+   transform: translateY(-40%);
+}
