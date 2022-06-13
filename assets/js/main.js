@@ -9,7 +9,6 @@ window.addEventListener("load", () => {
 
 window.addEventListener("scroll", () => {
   scrollPosition = window.scrollY;
-  console.log(scrollStatus);
 
   if (scrollPosition > 50 && scrollStatus) {
     nav.classList.add("navcolor-csoz");

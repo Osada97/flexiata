@@ -1,0 +1,68 @@
+@use '../../custom' as *;
+
+
+//background image
+.bgback-csoz{
+    background: url('../../../assets/img/contact_page/bg.png') no-repeat right center;
+}
+
+//slash
+.sla-csoz{
+    position: relative;
+    &:after{
+        @include media-breakpoint-down(sm){
+            display: none;
+        }
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 10%;
+        transform: rotate(15deg);
+        width: 1px;
+        height: 100%;
+        background: #000;
+    }
+}
+
+//contact container
+.contactwidth-csoz{
+    @include media-breakpoint-down(lg){
+        width: 70% ;
+    }
+    @include media-breakpoint-down(md){
+        width: 100% ;
+    }
+    width: 90%;
+}
+.roundedlink-csoz{
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+//form styling
+.form-csoz{
+    width: 90%;
+}
+.borderbot-only-csoz{
+    border: none;
+    border-bottom: 1px solid #221D3A3B;
+}
+
+//map container
+.map-container-2{
+    overflow:hidden;
+    position:relative;
+    height:0;
+  }
+  .map-container-2 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
