@@ -11238,11 +11238,15 @@ textarea.form-control-lg {
   margin-bottom: 35px;
 }
 .letscs-csoz h1 span {
-  color: yellow;
+  color: #F6AE2D;
 }
 .letscs-csoz p {
   width: 80%;
   margin-bottom: 35px;
+}
+
+.imgla-csoz {
+  background: #fff url("../../assets/img/thumbsup.png") no-repeat bottom left;
 }
 
 .footer-csoz {
