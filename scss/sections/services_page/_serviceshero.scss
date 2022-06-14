@@ -1,15 +1,8 @@
 @use '../../custom' as *;
 
-.csservice-csoz{
-    bottom: 0;
-    right: 0;
-    transform: translate(0%, 0%);
-    min-width: 500px;
-    min-height: 350px;
-}
-
 .rehero-csoz{
     min-height: 75vh;
+    background: url('../../../assets/img/services_page/hero.png') no-repeat right;
     @include media-breakpoint-down(md){
         width: 100% !important;
     }

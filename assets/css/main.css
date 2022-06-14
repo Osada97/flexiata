@@ -11309,16 +11309,9 @@ textarea.form-control-lg {
   }
 }
 
-.csservice-csoz {
-  bottom: 0;
-  right: 0;
-  transform: translate(0%, 0%);
-  min-width: 500px;
-  min-height: 350px;
-}
-
 .rehero-csoz {
   min-height: 75vh;
+  background: url("../../../assets/img/services_page/hero.png") no-repeat right;
 }
 @media (max-width: 767.98px) {
   .rehero-csoz {
@@ -11397,6 +11390,10 @@ textarea.form-control-lg {
   height: 100%;
   width: 100%;
   position: absolute;
+}
+
+.tablink-csoz {
+  color: #27437a;
 }
 
 /*# sourceMappingURL=main.css.map */

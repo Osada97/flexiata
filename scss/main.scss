@@ -20,7 +20,11 @@
 @use 'sections/services_page/serviceshero';
 
 //import contact us
-@use 'sections/contactus_page/herosection.scss'
+@use 'sections/contactus_page/herosection.scss';
+
+//import portfolio
+@use 'sections/portfolio_page/tabsbar'
+
 
 
 
