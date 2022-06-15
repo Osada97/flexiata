@@ -1,5 +1,8 @@
 @use '../../custom' as *;
 
 .tablink-csoz{
+    @include media-breakpoint-down(md){
+        text-align: left;
+    }
     color: $altlight;
 }
