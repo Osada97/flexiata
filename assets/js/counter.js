@@ -3,11 +3,16 @@ const counters = document.querySelectorAll(".counter");
 const speed = 200;
 
 //use for active counter animation when counter section viewable for client
-const observer = new IntersectionObserver((entries) => {
-  if (entries[0].isIntersecting) {
-    activeCounter();
+const observer = new IntersectionObserver(
+  (entries) => {
+    if (entries[0].isIntersecting) {
+      activeCounter();
+    }
+  },
+  {
+    threshold: 0.5,
   }
-});
+);
 
 observer.observe(counterSection);
 
