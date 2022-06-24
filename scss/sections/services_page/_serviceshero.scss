@@ -2,7 +2,7 @@
 
 .rehero-csoz{
     min-height: 75vh;
-    background: url('../../../assets/img/services_page/hero.png') no-repeat right;
+    background: url(../../assets/img/services_page/hero.png) no-repeat right;
     @include media-breakpoint-down(md){
         width: 100% !important;
     }

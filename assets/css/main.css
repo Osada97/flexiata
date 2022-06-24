@@ -11343,7 +11343,7 @@ textarea.form-control-lg {
 
 .rehero-csoz {
   min-height: 75vh;
-  background: url("../../../assets/img/services_page/hero.png") no-repeat right;
+  background: url(../../assets/img/services_page/hero.png) no-repeat right;
 }
 @media (max-width: 767.98px) {
   .rehero-csoz {
