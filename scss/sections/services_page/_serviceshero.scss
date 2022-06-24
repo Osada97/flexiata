@@ -8,6 +8,14 @@
     }
 
     h3{
-        font-size: 30px;
+        font-size: 36px;
+    }
+}
+.debox-csoz{
+    background-color:  #E5E5E5;
+    transition: 0.3s ease-in;
+    &:hover{
+        background-color: $primary;
+        color: $light !important;
     }
 }
