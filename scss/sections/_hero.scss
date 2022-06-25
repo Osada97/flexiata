@@ -4,7 +4,7 @@
 
 //hero section column one
 .herocol-csoz{
-    padding-top: $spacer * 5;
+    padding-top: $spacer * 6;
     padding-bottom: $spacer;
     @include media-breakpoint-down(sm){
         padding-bottom: $spacer * 1;
@@ -54,6 +54,9 @@
         }
     }
     p{
+        @include media-breakpoint-down(md){
+            width: 100% !important;
+        }
         font-size: 14px;
         font-weight: 400;
         margin-bottom: 36px;

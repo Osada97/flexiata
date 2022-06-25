@@ -1,0 +1,8 @@
+@use '../../custom' as *;
+
+.heroport-csoz{
+    @include media-breakpoint-down(md){
+        background: none;
+    }
+    background: url(../../../assets/img/portfolio_pages/portfoio_background.png) no-repeat right bottom;
+}

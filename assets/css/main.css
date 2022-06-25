@@ -10858,7 +10858,7 @@ textarea.form-control-lg {
 }
 
 .herocol-csoz {
-  padding-top: 5rem;
+  padding-top: 6rem;
   padding-bottom: 1rem;
 }
 @media (max-width: 575.98px) {
@@ -10911,6 +10911,11 @@ textarea.form-control-lg {
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 36px;
+}
+@media (max-width: 767.98px) {
+  .herocol-csoz p {
+    width: 100% !important;
+  }
 }
 
 .box {
@@ -11431,6 +11436,15 @@ textarea.form-control-lg {
   height: 100%;
   width: 100%;
   position: absolute;
+}
+
+.heroport-csoz {
+  background: url(../../../assets/img/portfolio_pages/portfoio_background.png) no-repeat right bottom;
+}
+@media (max-width: 767.98px) {
+  .heroport-csoz {
+    background: none;
+  }
 }
 
 .tablink-csoz {
