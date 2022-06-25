@@ -10917,6 +10917,31 @@ textarea.form-control-lg {
     width: 100% !important;
   }
 }
+.herocol-csoz button {
+  position: relative;
+}
+.herocol-csoz button:before {
+  content: "";
+  position: absolute;
+  bottom: -120px;
+  left: -55px;
+  padding: 124px 88px;
+  background: url("../../assets/img/particle1.png") no-repeat left center;
+  z-index: 1;
+  user-select: none;
+  pointer-events: none;
+}
+.herocol-csoz button:after {
+  content: "";
+  position: absolute;
+  bottom: -71px;
+  right: -107px;
+  padding: 124px 88px;
+  background: url("../../assets/img/particle2.png") no-repeat left center;
+  z-index: 1;
+  user-select: none;
+  pointer-events: none;
+}
 
 .box {
   padding-top: 5rem;
