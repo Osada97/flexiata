@@ -1,0 +1,8 @@
+@use '../../custom' as *;
+
+.abbg-csoz{
+    @include media-breakpoint-down(lg){
+        background: none;
+    }
+    background: url(../../../assets/img/about.png) no-repeat right center;
+}

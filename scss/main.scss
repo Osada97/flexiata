@@ -22,6 +22,9 @@
 //import contact us
 @use 'sections/contactus_page/herosection.scss';
 
+//import about us
+@use 'sections/aboutus_page/abouthero';
+
 //import portfolio
 @use 'sections/portfolio_page/hero_portfolio';
 @use 'sections/portfolio_page/tabsbar';
