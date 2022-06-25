@@ -10936,7 +10936,7 @@ textarea.form-control-lg {
 }
 
 .werow-csoz {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 @media (max-width: 575.98px) {
   .werow-csoz {
@@ -11342,8 +11342,8 @@ textarea.form-control-lg {
 }
 
 .rehero-csoz {
-  min-height: 75vh;
-  background: url(../../assets/img/services_page/hero.png) no-repeat right;
+  min-height: 65vh;
+  background: url(../../assets/img/services_page/hero.png) no-repeat right bottom;
 }
 @media (max-width: 767.98px) {
   .rehero-csoz {
