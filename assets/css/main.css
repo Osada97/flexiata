@@ -10845,7 +10845,12 @@ textarea.form-control-lg {
 
 .navbar-toggler {
   padding: 0.25rem;
-  border-color: #27437a !important;
+  background-color: #C00815;
+  padding: 13px 19px;
+  border-radius: 0;
+  color: #fff !important;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .navbar-toggler-icon {
@@ -10855,6 +10860,39 @@ textarea.form-control-lg {
 
 .navbar-toggler:focus {
   box-shadow: none;
+}
+
+@media (max-width: 991.98px) {
+  .navside-csoz {
+    background: transparent;
+    width: 100%;
+    height: calc(100vh - 70px);
+    overflow: hidden;
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    bottom: 0;
+    transition: transform 0.5s linear;
+    transform: translateY(100%) translateX(100%);
+  }
+  .navside-csoz ul {
+    margin-left: auto;
+    max-width: 250px;
+    height: 100%;
+    background-color: #fff;
+  }
+  .navside-csoz ul li {
+    text-align: center;
+    padding: 15px 0 !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .show.navside-csoz {
+    transform: translateY(100%) translateX(0%);
+    user-select: initial;
+    pointer-events: initial;
+  }
 }
 
 .herocol-csoz {
@@ -10898,6 +10936,11 @@ textarea.form-control-lg {
   background-color: #27437a;
   z-index: -1;
 }
+@media (max-width: 575.98px) {
+  .herocol-csoz h1 .sptext-csoz:before {
+    display: none;
+  }
+}
 .herocol-csoz h1 .sptext-csoz:after {
   content: "";
   position: absolute;
@@ -10906,6 +10949,11 @@ textarea.form-control-lg {
   width: 10px;
   height: 10px;
   background-color: #fff;
+}
+@media (max-width: 575.98px) {
+  .herocol-csoz h1 .sptext-csoz:after {
+    display: none;
+  }
 }
 .herocol-csoz p {
   font-size: 14px;
@@ -10967,10 +11015,11 @@ textarea.form-control-lg {
 
 .werow-csoz {
   margin-bottom: 50px;
+  flex-wrap: wrap;
 }
 @media (max-width: 575.98px) {
   .werow-csoz {
-    display: none !important;
+    margin-bottom: 25px;
   }
 }
 .werow-csoz .coloured-csoz {
@@ -11014,6 +11063,12 @@ textarea.form-control-lg {
   transform: rotate(270deg) translateX(-25px);
   font-size: 14px;
   color: #818181;
+}
+
+@media (max-width: 575.98px) {
+  .clients-csoz {
+    border-bottom: 1px solid #818181;
+  }
 }
 
 .serrow-csoz {
@@ -11281,6 +11336,7 @@ textarea.form-control-lg {
   position: absolute;
   top: 50%;
   transform: translate(45%, -50%) rotate(-90deg);
+  flex-wrap: nowrap !important;
 }
 
 .letscs-csoz {

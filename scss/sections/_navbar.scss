@@ -53,7 +53,13 @@
 }
 .navbar-toggler{
     padding: 0.25rem;
-    border-color: $altlight !important;
+    background-color: $primary;
+    padding: 13px 19px;
+    border-radius: 0;
+    color: $light !important;
+    font-size: 16px;
+    font-weight: 700;
+    
 }
 .navbar-toggler-icon{
     width: 1.5625rem;
@@ -61,4 +67,41 @@
 }
 .navbar-toggler:focus{
     box-shadow: none ;
+}
+
+.navside-csoz{
+    @include media-breakpoint-down(lg){
+        background: transparent;
+    width: 100%;
+    height: calc(100vh - 70px);
+    overflow: hidden;
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    bottom: 0;
+    transition: transform 0.5s linear;
+    transform: translateY(100%) translateX(100%);
+    
+    
+    ul{
+        margin-left: auto;
+        max-width: 250px;
+        height: 100%;
+        background-color: $light;
+    
+        li{
+            text-align: center;
+            padding: 15px 0 !important;
+        }
+    }
+    }
+    
+}
+
+.show.navside-csoz{
+    @include media-breakpoint-down(lg){
+        transform: translateY(100%) translateX(0%);
+        user-select: initial;
+        pointer-events: initial;
+    }
 }

@@ -32,6 +32,9 @@
             text-shadow: -1px 0 $altlight, 0 1px $altlight, 1px 0 $altlight, 0 -1px $altlight;
             
             &:before{
+                @include media-breakpoint-down(sm){
+                    display: none;
+                }
                 content: '';
                 position: absolute;
                 bottom: 5%;
@@ -42,6 +45,9 @@
                 z-index: -1;
             }
             &:after{
+                @include media-breakpoint-down(sm){
+                    display: none;
+                }
                 content: '';
                 position: absolute;
                 bottom: 8%;
@@ -113,9 +119,10 @@
 //hero section welcome to flexiata
 .werow-csoz{
     @include media-breakpoint-down(sm){
-        display: none !important;
+        margin-bottom: 25px;
     }
     margin-bottom: 50px;
+    flex-wrap: wrap;
     .coloured-csoz{
         position: relative;
         width: 159px;

@@ -1,0 +1,8 @@
+@use '../custom' as *;
+
+.clients-csoz{
+    @include media-breakpoint-down(sm){
+        border-bottom: 1px solid $darkfont;
+    }
+
+}
