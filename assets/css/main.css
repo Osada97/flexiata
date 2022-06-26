@@ -11509,12 +11509,50 @@ textarea.form-control-lg {
 }
 
 .abbg-csoz {
-  background: url(../../../assets/img/about.png) no-repeat right center;
+  background: url(../../assets/img/about.png) no-repeat center;
+  background-size: cover;
 }
-@media (max-width: 991.98px) {
-  .abbg-csoz {
-    background: none;
-  }
+
+.borderc-csoz {
+  position: absolute;
+  top: 80%;
+  left: 0%;
+  width: 120px;
+  height: 15px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #C00815;
+}
+.borderc-csoz:after {
+  content: "";
+  position: absolute;
+  bottom: 6%;
+  right: 1%;
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.borderca-csoz {
+  position: absolute;
+  top: 80%;
+  right: 0%;
+  width: 120px;
+  height: 15px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #C00815;
+}
+.borderca-csoz:after {
+  content: "";
+  position: absolute;
+  bottom: 4%;
+  left: 2%;
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  border-radius: 50%;
 }
 
 .heroport-csoz {
