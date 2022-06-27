@@ -6,6 +6,9 @@
     @include media-breakpoint-down(md){
         width: 100% !important;
     }
+    @include media-breakpoint-down(sm){
+        background: url(../../assets/img/services_page/heromobile.png) no-repeat right bottom;
+    }
 
     h3{
         font-size: 36px;

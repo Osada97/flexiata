@@ -11451,6 +11451,11 @@ textarea.form-control-lg {
     width: 100% !important;
   }
 }
+@media (max-width: 575.98px) {
+  .rehero-csoz {
+    background: url(../../assets/img/services_page/heromobile.png) no-repeat right bottom;
+  }
+}
 .rehero-csoz h3 {
   font-size: 36px;
 }
