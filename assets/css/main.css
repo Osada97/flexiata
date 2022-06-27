@@ -10801,6 +10801,11 @@ textarea.form-control-lg {
 #navbar {
   transition: background-color 0.3s ease-in;
 }
+@media (max-width: 991.98px) {
+  #navbar {
+    background-color: #fff;
+  }
+}
 
 .menu li {
   padding-right: 1.625rem !important;
@@ -11019,7 +11024,7 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .werow-csoz {
-    margin-bottom: 25px;
+    margin-bottom: 25px !important;
   }
 }
 .werow-csoz .coloured-csoz {

@@ -8,6 +8,9 @@
 
 #navbar{
     transition: background-color 0.3s ease-in;
+    @include media-breakpoint-down(lg){
+        background-color: #fff;
+    }
 }
 
 .menu{

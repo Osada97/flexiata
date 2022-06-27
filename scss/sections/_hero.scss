@@ -119,7 +119,7 @@
 //hero section welcome to flexiata
 .werow-csoz{
     @include media-breakpoint-down(sm){
-        margin-bottom: 25px;
+        margin-bottom: 25px !important;
     }
     margin-bottom: 50px;
     flex-wrap: wrap;
