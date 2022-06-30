@@ -11100,6 +11100,9 @@ textarea.form-control-lg {
   font-size: 36px;
   margin-bottom: 32px;
 }
+.serives-csoz .colani-gsp {
+  z-index: 1;
+}
 .serives-csoz .card-csoz {
   position: relative;
   text-align: center;
