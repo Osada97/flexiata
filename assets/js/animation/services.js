@@ -65,6 +65,14 @@ const sectionEight = gsap.timeline({
     markers: true,
   },
 });
+const letsStart = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".eight-section",
+    start: "top 80%",
+    end: "0%",
+    markers: { startColor: "blue", endColor: "red" },
+  },
+});
 
 //!!services hero section
 tlse.fromTo(
@@ -294,4 +302,23 @@ sectionEight.fromTo(
   { opacity: 0, x: -20 },
   { opacity: 1, x: 0, duration: 0.5, stagger: 0.5 },
   "<50%"
+);
+
+// !!lets start section
+letsStart.fromTo(
+  ".letsMainc-gsp",
+  { scale: 0.9 },
+  { scale: 1, ease: Circ.easeOut, delay: 0.5, duration: 1 }
+);
+letsStart.fromTo(
+  ".bgimglet-gsp",
+  { opacity: 0 },
+  { opacity: 1, duration: 2 },
+  "<10%"
+);
+letsStart.fromTo(
+  ".letbanner-gsp",
+  { opacity: 0 },
+  { opacity: 1, duration: 2 },
+  "<"
 );
