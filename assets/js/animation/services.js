@@ -91,7 +91,7 @@ tlse.fromTo(
 // !!section one
 sectionOne.fromTo(
   ".sec-gsp",
-  { scale: 1.1 },
+  { scale: 0.8 },
   { scale: 1, ease: Elastic.easeOut.config(1, 0.3), delay: 0.2, duration: 2 }
 );
 
@@ -117,7 +117,7 @@ sectionOne.fromTo(
 // !!section two
 sectionTwo.fromTo(
   ".secT-gsp",
-  { scale: 1.1 },
+  { scale: 0.8 },
   { scale: 1, ease: Elastic.easeOut.config(1, 0.3), delay: 0.2, duration: 2 }
 );
 
@@ -143,7 +143,7 @@ sectionTwo.fromTo(
 //!!section three
 sectionThree.fromTo(
   ".secTh-gsp",
-  { scale: 1.1 },
+  { scale: 0.8 },
   { scale: 1, ease: Elastic.easeOut.config(1, 0.3), delay: 0.2, duration: 2 }
 );
 
@@ -169,7 +169,7 @@ sectionThree.fromTo(
 //!!section fourth
 sectionFourth.fromTo(
   ".secfr-gsp",
-  { scale: 1.1 },
+  { scale: 0.8 },
   { scale: 1, ease: Elastic.easeOut.config(1, 0.3), delay: 0.2, duration: 2 }
 );
 
@@ -195,7 +195,7 @@ sectionFourth.fromTo(
 //!!section fifth
 sectionFifth.fromTo(
   ".secff-gsp",
-  { scale: 1.1 },
+  { scale: 0.8 },
   { scale: 1, ease: Elastic.easeOut.config(1, 0.3), delay: 0.2, duration: 2 }
 );
 
@@ -221,7 +221,7 @@ sectionFifth.fromTo(
 //!!section sixth
 sectionSixth.fromTo(
   ".secsx-gsp",
-  { scale: 1.1 },
+  { scale: 0.8 },
   { scale: 1, ease: Elastic.easeOut.config(1, 0.3), delay: 0.2, duration: 2 }
 );
 
@@ -247,7 +247,7 @@ sectionSixth.fromTo(
 //!!section seventh
 sectionSeven.fromTo(
   ".secsv-gsp",
-  { scale: 1.1 },
+  { scale: 0.8 },
   { scale: 1, ease: Elastic.easeOut.config(1, 0.3), delay: 0.2, duration: 2 }
 );
 
@@ -273,7 +273,7 @@ sectionSeven.fromTo(
 //!!section eight
 sectionEight.fromTo(
   ".secei-gsp",
-  { scale: 1.1 },
+  { scale: 0.8 },
   { scale: 1, ease: Elastic.easeOut.config(1, 0.3), delay: 0.2, duration: 2 }
 );
 

@@ -205,7 +205,7 @@ ourWork.fromTo(".serbut-gsp", { y: "20" }, { y: "0", duration: 1 }, "<10%");
 letsStart.fromTo(
   ".letsMainc-gsp",
   { scale: 0.9 },
-  { scale: 1, ease: Elastic.easeOut.config(1, 0.3), delay: 0.5, duration: 2 }
+  { scale: 1, ease: Circ.easeOut, delay: 0.5, duration: 1 }
 );
 letsStart.fromTo(
   ".bgimglet-gsp",
