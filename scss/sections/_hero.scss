@@ -166,4 +166,20 @@
         font-size: 14px;
         color: $darkfont;
     }
+
+    //mouse svg animation
+    svg{
+        overflow: visible;
+        #Group_638{
+
+            animation: scrollmouse 1.5s linear infinite alternate-reverse;
+        }
+        #Subtract_2{
+            animation: scrollmouse 1.5s linear infinite alternate-reverse;
+        }
+        #Subtract{
+            transform-origin: bottom;
+            animation: scrolling 1.5s ease-in-out infinite alternate-reverse;
+        }
+    }
 }
