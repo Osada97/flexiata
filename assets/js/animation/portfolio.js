@@ -11,12 +11,12 @@ tl.fromTo(
     x: "0%",
     opacity: 1,
     delay: 0.5,
-    duration: 3,
+    duration: 2,
     ease: Power4.easeOut,
   }
 );
 
-tl.fromTo(".banner-gsp", { opacity: 0 }, { opacity: 1, duration: 3 }, "<40%");
+tl.fromTo(".banner-gsp", { opacity: 0 }, { opacity: 1, duration: 2 }, "<40%");
 
 tl.fromTo(
   ".cardse-gsp",

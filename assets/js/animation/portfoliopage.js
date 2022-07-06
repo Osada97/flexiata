@@ -28,7 +28,7 @@ tlse.fromTo(
     x: "0%",
     opacity: 1,
     delay: 0.5,
-    duration: 3,
+    duration: 1,
     stagger: 0.2,
     ease: Power4.easeOut,
   }
@@ -39,7 +39,7 @@ tlse.fromTo(
   {
     scale: 1,
     opacity: 1,
-    duration: 1,
+    duration: 0.5,
     ease: Power4.easeOut,
   },
   "<50%"
@@ -47,11 +47,11 @@ tlse.fromTo(
 tlse.fromTo(
   ".webimg-gsp",
   { scale: 0.8, opacity: 0 },
-  { scale: 1, opacity: 1, duration: 1 },
+  { scale: 1, opacity: 1, duration: 0.5 },
   "<"
 );
 
-tlse.fromTo(".banner-gsp", { opacity: 0 }, { opacity: 1, duration: 3 }, "<40%");
+tlse.fromTo(".banner-gsp", { opacity: 0 }, { opacity: 1, duration: 2 }, "<40%");
 
 // !!paragraph animation
 containsc.fromTo(
@@ -63,7 +63,7 @@ containsc.fromTo(
   {
     x: 0,
     opacity: 1,
-    duration: 1,
+    duration: 0.5,
   }
 );
 
@@ -78,7 +78,7 @@ relatedwork.fromTo(
     x: 0,
     opacity: 1,
     stagger: 0.3,
-    duration: 1,
+    duration: 0.5,
   }
 );
 relatedwork.fromTo(
@@ -91,7 +91,7 @@ relatedwork.fromTo(
     y: 0,
     opacity: 1,
     stagger: 0.3,
-    duration: 1,
+    duration: 0.5,
   },
   "<30%"
 );

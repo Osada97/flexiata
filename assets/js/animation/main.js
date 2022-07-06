@@ -61,7 +61,7 @@ tl.fromTo(
     x: "0%",
     opacity: 1,
     delay: 0.5,
-    duration: 3,
+    duration: 2,
     ease: Power4.easeOut,
   }
 );
@@ -70,18 +70,18 @@ tl.fromTo(
 tl.fromTo(
   ".buttonm-gsp",
   { y: 50, opacity: 0 },
-  { y: 0, opacity: 1, duration: 3 },
+  { y: 0, opacity: 1, duration: 2 },
   "<30%"
 );
 
 // hero section right column
-tl.fromTo(".rgcol-gsp", { opacity: 0 }, { opacity: 1, duration: 4 }, "<");
+tl.fromTo(".rgcol-gsp", { opacity: 0 }, { opacity: 1, duration: 3 }, "<");
 
 // hero section image right column
-tl.fromTo(".rgcolimg-gsp", { scale: 0.9 }, { scale: 1 }, "<");
+tl.fromTo(".rgcolimg-gsp", { opacity: 0.9 }, { opacity: 1 }, "<");
 
 //top banner animation
-tl.fromTo(".banner-gsp", { opacity: 0 }, { opacity: 1, duration: 3 }, "<40%");
+tl.fromTo(".banner-gsp", { opacity: 0 }, { opacity: 1, duration: 2 }, "<40%");
 
 tl.fromTo(".mouse-gsp", { opacity: 0 }, { opacity: 1 }, "<10%");
 
@@ -89,7 +89,7 @@ tl.fromTo(".mouse-gsp", { opacity: 0 }, { opacity: 1 }, "<10%");
 counterTl.fromTo(
   ".counter-gsp",
   { y: "30", opacity: 0 },
-  { y: "0", opacity: 1, duration: 0.5, stagger: 0.4 }
+  { y: "0", opacity: 1, duration: 0.5, stagger: 0.3 }
 );
 
 // !!Our services animation
@@ -100,7 +100,7 @@ oServices.fromTo(
     x: "0%",
     opacity: 1,
     delay: 0.5,
-    duration: 2,
+    duration: 1,
     ease: Power4.easeOut,
   }
 );
@@ -109,7 +109,7 @@ oServices.fromTo(
   { opacity: 0 },
   {
     opacity: 1,
-    duration: 3,
+    duration: 2,
   },
   "<50%"
 );
@@ -117,14 +117,14 @@ oServices.fromTo(
 oServices.fromTo(
   ".sebanner-gsp",
   { opacity: 0 },
-  { opacity: 1, duration: 2 },
+  { opacity: 1, duration: 1 },
   "<10%"
 );
 
 oServices.fromTo(
   ".sebgimg-gsp",
   { y: "-50" },
-  { y: 0, ease: Elastic.easeOut.config(1, 0.7), duration: 2 },
+  { y: 0, ease: Elastic.easeOut.config(1, 0.7), duration: 1 },
   "<"
 );
 
@@ -134,7 +134,7 @@ oServicesGrid.fromTo(
   {
     y: 0,
     ease: Elastic.easeOut.config(1, 0.7),
-    duration: 3,
+    duration: 2,
     delay: 1,
     stagger: 0.1,
   },
@@ -151,7 +151,7 @@ whyChoose.fromTo(
 whyChoose.fromTo(
   ".whybut-gsp",
   { y: "-50" },
-  { y: 0, duration: 1, stagger: 0.2 },
+  { y: 0, duration: 0.5, stagger: 0.2 },
   "<"
 );
 whyChoose.fromTo(
@@ -174,7 +174,7 @@ ourWork.fromTo(
     x: "0%",
     opacity: 1,
     delay: 0.5,
-    duration: 2,
+    duration: 1,
     ease: Power4.easeOut,
   }
 );
@@ -183,45 +183,45 @@ ourWork.fromTo(
   { opacity: 0 },
   {
     opacity: 1,
-    duration: 3,
+    duration: 2,
   },
   "<50%"
 );
 ourWork.fromTo(
   ".bgimg-gsp",
   { opacity: 0, scale: 0.9 },
-  { opacity: 1, scale: 1, duration: 2 },
+  { opacity: 1, scale: 1, duration: 1 },
   "<"
 );
 ourWork.fromTo(
   ".ourbanner-gsp",
   { opacity: 0 },
-  { opacity: 1, duration: 2 },
+  { opacity: 1, duration: 1 },
   "<10%"
 );
 ourWork.fromTo(
   ".ourworkimgrid-gsp",
   { opacity: 0.9, scale: 0.95 },
-  { opacity: 1, scale: 1, duration: 1, stagger: 0.5 },
+  { opacity: 1, scale: 1, duration: 0.5, stagger: 0.5 },
   "<10%"
 );
-ourWork.fromTo(".serbut-gsp", { y: "20" }, { y: "0", duration: 1 }, "<10%");
+ourWork.fromTo(".serbut-gsp", { y: "20" }, { y: "0", duration: 0.5 }, "<10%");
 
 // !!lets start section
 letsStart.fromTo(
   ".letsMainc-gsp",
   { scale: 0.9 },
-  { scale: 1, ease: Circ.easeOut, delay: 0.5, duration: 1 }
+  { scale: 1, ease: Circ.easeOut, delay: 0.5, duration: 0.5 }
 );
 letsStart.fromTo(
   ".bgimglet-gsp",
   { opacity: 0 },
-  { opacity: 1, duration: 2 },
+  { opacity: 1, duration: 1 },
   "<10%"
 );
 letsStart.fromTo(
   ".letbanner-gsp",
   { opacity: 0 },
-  { opacity: 1, duration: 2 },
+  { opacity: 1, duration: 1 },
   "<"
 );

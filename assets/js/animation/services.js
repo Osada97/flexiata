@@ -82,12 +82,12 @@ tlse.fromTo(
     x: "0%",
     opacity: 1,
     delay: 0.5,
-    duration: 3,
+    duration: 2,
     ease: Power4.easeOut,
   }
 );
 
-tlse.fromTo(".banner-gsp", { opacity: 0 }, { opacity: 1, duration: 3 }, "<40%");
+tlse.fromTo(".banner-gsp", { opacity: 0 }, { opacity: 1, duration: 2 }, "<40%");
 
 tlse.fromTo(
   ".cardse-gsp",
@@ -100,13 +100,13 @@ tlse.fromTo(
 sectionOne.fromTo(
   ".sec-gsp",
   { scale: 0.8 },
-  { scale: 1, ease: Elastic.easeOut.config(1, 0.3), delay: 0.2, duration: 2 }
+  { scale: 1, ease: Elastic.easeOut.config(1, 0.3), delay: 0.2, duration: 1 }
 );
 
 sectionOne.fromTo(
   ".imani-gsp",
   { opacity: 0 },
-  { opacity: 1, duration: 2 },
+  { opacity: 1, duration: 1 },
   "<20%"
 );
 sectionOne.fromTo(
@@ -126,13 +126,13 @@ sectionOne.fromTo(
 sectionTwo.fromTo(
   ".secT-gsp",
   { scale: 0.8 },
-  { scale: 1, ease: Elastic.easeOut.config(1, 0.3), delay: 0.2, duration: 2 }
+  { scale: 1, ease: Elastic.easeOut.config(1, 0.3), delay: 0.2, duration: 1 }
 );
 
 sectionTwo.fromTo(
   ".imaniT-gsp",
   { opacity: 0 },
-  { opacity: 1, duration: 2 },
+  { opacity: 1, duration: 1 },
   "<20%"
 );
 sectionTwo.fromTo(
@@ -152,13 +152,13 @@ sectionTwo.fromTo(
 sectionThree.fromTo(
   ".secTh-gsp",
   { scale: 0.8 },
-  { scale: 1, ease: Elastic.easeOut.config(1, 0.3), delay: 0.2, duration: 2 }
+  { scale: 1, ease: Elastic.easeOut.config(1, 0.3), delay: 0.2, duration: 1 }
 );
 
 sectionThree.fromTo(
   ".imaniTh-gsp",
   { opacity: 0 },
-  { opacity: 1, duration: 2 },
+  { opacity: 1, duration: 1 },
   "<20%"
 );
 sectionThree.fromTo(
@@ -178,13 +178,13 @@ sectionThree.fromTo(
 sectionFourth.fromTo(
   ".secfr-gsp",
   { scale: 0.8 },
-  { scale: 1, ease: Elastic.easeOut.config(1, 0.3), delay: 0.2, duration: 2 }
+  { scale: 1, ease: Elastic.easeOut.config(1, 0.3), delay: 0.2, duration: 1 }
 );
 
 sectionFourth.fromTo(
   ".imanifr-gsp",
   { opacity: 0 },
-  { opacity: 1, duration: 2 },
+  { opacity: 1, duration: 1 },
   "<20%"
 );
 sectionFourth.fromTo(
@@ -204,13 +204,13 @@ sectionFourth.fromTo(
 sectionFifth.fromTo(
   ".secff-gsp",
   { scale: 0.8 },
-  { scale: 1, ease: Elastic.easeOut.config(1, 0.3), delay: 0.2, duration: 2 }
+  { scale: 1, ease: Elastic.easeOut.config(1, 0.3), delay: 0.2, duration: 1 }
 );
 
 sectionFifth.fromTo(
   ".imaniff-gsp",
   { opacity: 0 },
-  { opacity: 1, duration: 2 },
+  { opacity: 1, duration: 1 },
   "<20%"
 );
 sectionFifth.fromTo(
@@ -230,13 +230,13 @@ sectionFifth.fromTo(
 sectionSixth.fromTo(
   ".secsx-gsp",
   { scale: 0.8 },
-  { scale: 1, ease: Elastic.easeOut.config(1, 0.3), delay: 0.2, duration: 2 }
+  { scale: 1, ease: Elastic.easeOut.config(1, 0.3), delay: 0.2, duration: 1 }
 );
 
 sectionSixth.fromTo(
   ".imanisx-gsp",
   { opacity: 0 },
-  { opacity: 1, duration: 2 },
+  { opacity: 1, duration: 1 },
   "<20%"
 );
 sectionSixth.fromTo(
@@ -256,13 +256,13 @@ sectionSixth.fromTo(
 sectionSeven.fromTo(
   ".secsv-gsp",
   { scale: 0.8 },
-  { scale: 1, ease: Elastic.easeOut.config(1, 0.3), delay: 0.2, duration: 2 }
+  { scale: 1, ease: Elastic.easeOut.config(1, 0.3), delay: 0.2, duration: 1 }
 );
 
 sectionSeven.fromTo(
   ".imanisv-gsp",
   { opacity: 0 },
-  { opacity: 1, duration: 2 },
+  { opacity: 1, duration: 1 },
   "<20%"
 );
 sectionSeven.fromTo(
@@ -282,13 +282,13 @@ sectionSeven.fromTo(
 sectionEight.fromTo(
   ".secei-gsp",
   { scale: 0.8 },
-  { scale: 1, ease: Elastic.easeOut.config(1, 0.3), delay: 0.2, duration: 2 }
+  { scale: 1, ease: Elastic.easeOut.config(1, 0.3), delay: 0.2, duration: 1 }
 );
 
 sectionEight.fromTo(
   ".imaniei-gsp",
   { opacity: 0 },
-  { opacity: 1, duration: 2 },
+  { opacity: 1, duration: 1 },
   "<20%"
 );
 sectionEight.fromTo(
@@ -308,17 +308,17 @@ sectionEight.fromTo(
 letsStart.fromTo(
   ".letsMainc-gsp",
   { scale: 0.9 },
-  { scale: 1, ease: Circ.easeOut, delay: 0.5, duration: 1 }
+  { scale: 1, ease: Circ.easeOut, delay: 0.5, duration: 0.5 }
 );
 letsStart.fromTo(
   ".bgimglet-gsp",
   { opacity: 0 },
-  { opacity: 1, duration: 2 },
+  { opacity: 1, duration: 1 },
   "<10%"
 );
 letsStart.fromTo(
   ".letbanner-gsp",
   { opacity: 0 },
-  { opacity: 1, duration: 2 },
+  { opacity: 1, duration: 1 },
   "<"
 );
