@@ -10989,11 +10989,6 @@ textarea.form-control-lg {
   background-color: #27437a;
   z-index: -1;
 }
-@media (max-width: 575.98px) {
-  .herocol-csoz h1 .sptext-csoz:before {
-    display: none;
-  }
-}
 .herocol-csoz h1 .sptext-csoz:after {
   content: "";
   position: absolute;
@@ -11002,11 +10997,6 @@ textarea.form-control-lg {
   width: 10px;
   height: 10px;
   background-color: #fff;
-}
-@media (max-width: 575.98px) {
-  .herocol-csoz h1 .sptext-csoz:after {
-    display: none;
-  }
 }
 .herocol-csoz p {
   font-size: 14px;
