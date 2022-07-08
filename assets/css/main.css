@@ -11125,6 +11125,9 @@ textarea.form-control-lg {
   .clients-csoz {
     border-bottom: 1px solid rgba(129, 129, 129, 0.231372549);
   }
+  .clients-csoz:last-child {
+    border-bottom: none;
+  }
 }
 
 .serrow-csoz {

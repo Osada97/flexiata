@@ -3,6 +3,11 @@
 .clients-csoz{
     @include media-breakpoint-down(sm){
         border-bottom: 1px solid #8181813b;
+        
+        &:last-child{
+            border-bottom: none
+
+        }
     }
 
 }
