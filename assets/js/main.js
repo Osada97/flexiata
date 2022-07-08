@@ -16,3 +16,9 @@ window.addEventListener("scroll", () => {
     nav.classList.remove("navcolor-csoz");
   }
 });
+
+const mainNav = document.querySelector("#main-nav");
+mainNav.addEventListener("click", (e) => {
+  if (e.target.classList.contains("navside-csoz"))
+    mainNav.classList.remove("show");
+});
