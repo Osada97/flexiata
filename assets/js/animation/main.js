@@ -21,8 +21,8 @@ const oServices = gsap.timeline({
 });
 const oServicesGrid = gsap.timeline({
   scrollTrigger: {
-    trigger: ".third-section",
-    start: "30% 80%",
+    trigger: ".gridse-gsp",
+    start: "-5% 80%",
     end: "100%",
     markers: { startColor: "yellow", endColor: "black" },
   },
@@ -130,12 +130,12 @@ oServices.fromTo(
 
 oServicesGrid.fromTo(
   ".colani-gsp",
-  { y: "-50" },
+  { y: "-10%" },
   {
     y: 0,
     ease: Elastic.easeOut.config(1, 0.7),
     duration: 2,
-    delay: 1,
+    delay: 0.5,
     stagger: 0.1,
   },
   "<5%"
