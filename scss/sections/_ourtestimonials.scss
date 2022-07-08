@@ -1,7 +1,7 @@
 @use '../custom' as *;
 
 // customer image
-.img-container{
+.img-container-csoz{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,6 +14,15 @@
     border-radius: 50%;
     overflow: hidden;
     z-index: 1;
+}
+.rowrete-csoz{
+    @include media-breakpoint-up(sm){
+        display: none;
+    }
+}
+.img-containerRe-csoz{
+    width: 130px;
+    height: 130px;
 }
 .carousel-csoz{
     padding-top: 100px;

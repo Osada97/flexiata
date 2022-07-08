@@ -11276,6 +11276,14 @@ textarea.form-control-lg {
   box-shadow: none;
 }
 
+@media (max-width: 575.98px) {
+  .savcar-csoz {
+    background-color: #f1f1f1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
 .counterimg-csoz {
   top: 0;
   right: 0;
@@ -11294,6 +11302,9 @@ textarea.form-control-lg {
     height: 2px;
     background-color: #2e2b45;
     transform: translateX(-50%);
+  }
+  .bordebd-csoz:last-child:after {
+    display: none;
   }
 }
 @media (min-width: 576px) {
@@ -11360,7 +11371,13 @@ textarea.form-control-lg {
   }
 }
 
-.img-container {
+@media (max-width: 575.98px) {
+  .rescour-csoz {
+    display: block !important;
+  }
+}
+
+.img-container-csoz {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11373,6 +11390,17 @@ textarea.form-control-lg {
   border-radius: 50%;
   overflow: hidden;
   z-index: 1;
+}
+
+@media (min-width: 576px) {
+  .rowrete-csoz {
+    display: none;
+  }
+}
+
+.img-containerRe-csoz {
+  width: 130px;
+  height: 130px;
 }
 
 .carousel-csoz {

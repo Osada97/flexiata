@@ -28,3 +28,11 @@
         }
     }
 }
+
+.savcar-csoz{
+    @include media-breakpoint-down(sm){
+        background-color: #f1f1f1;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

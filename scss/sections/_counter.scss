@@ -20,6 +20,11 @@
             background-color: #2e2b45;
             transform: translateX(-50%);
         }
+        &:last-child{
+            &:after{
+                display: none;
+            }
+        }
     }
     @include media-breakpoint-up(sm){
         h5{
