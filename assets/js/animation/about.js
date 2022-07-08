@@ -7,7 +7,6 @@ const sectionOne = gsap.timeline({
     trigger: ".sectionOne-gsp",
     start: "top 80%",
     end: "0%",
-    markers: true,
   },
 });
 const sectionTwo = gsap.timeline({
@@ -15,7 +14,6 @@ const sectionTwo = gsap.timeline({
     trigger: ".sectionTwo-gsp",
     start: "top 80%",
     end: "0%",
-    markers: true,
   },
 });
 const letsStart = gsap.timeline({
@@ -23,7 +21,6 @@ const letsStart = gsap.timeline({
     trigger: ".eight-section",
     start: "top 80%",
     end: "0%",
-    markers: { startColor: "blue", endColor: "red" },
   },
 });
 

@@ -6,7 +6,6 @@ const sectionOne = gsap.timeline({
     trigger: ".sectionOne-gsp",
     start: "top 80%",
     end: "0%",
-    markers: true,
   },
 });
 const sectionTwo = gsap.timeline({
@@ -14,7 +13,6 @@ const sectionTwo = gsap.timeline({
     trigger: ".sectionTwo-gsp",
     start: "top 80%",
     end: "0%",
-    markers: true,
   },
 });
 const sectionThree = gsap.timeline({
@@ -22,7 +20,6 @@ const sectionThree = gsap.timeline({
     trigger: ".sectionThree-gsp",
     start: "top 80%",
     end: "0%",
-    markers: true,
   },
 });
 const sectionFourth = gsap.timeline({
@@ -30,7 +27,6 @@ const sectionFourth = gsap.timeline({
     trigger: ".sectionFourth-gsp",
     start: "top 80%",
     end: "0%",
-    markers: true,
   },
 });
 const sectionFifth = gsap.timeline({
@@ -38,7 +34,6 @@ const sectionFifth = gsap.timeline({
     trigger: ".sectionFifth-gsp",
     start: "top 80%",
     end: "0%",
-    markers: true,
   },
 });
 const sectionSixth = gsap.timeline({
@@ -46,7 +41,6 @@ const sectionSixth = gsap.timeline({
     trigger: ".sectionSixth-gsp",
     start: "top 80%",
     end: "0%",
-    markers: true,
   },
 });
 const sectionSeven = gsap.timeline({
@@ -54,7 +48,6 @@ const sectionSeven = gsap.timeline({
     trigger: ".sectionSeventh-gsp",
     start: "top 80%",
     end: "0%",
-    markers: true,
   },
 });
 const sectionEight = gsap.timeline({
@@ -62,7 +55,6 @@ const sectionEight = gsap.timeline({
     trigger: ".sectionEight-gsp",
     start: "top 80%",
     end: "0%",
-    markers: true,
   },
 });
 const letsStart = gsap.timeline({
@@ -70,7 +62,6 @@ const letsStart = gsap.timeline({
     trigger: ".eight-section",
     start: "top 80%",
     end: "0%",
-    markers: { startColor: "blue", endColor: "red" },
   },
 });
 

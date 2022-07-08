@@ -7,7 +7,6 @@ const containsc = gsap.timeline({
     trigger: ".contsc-gsp",
     start: "top 80%",
     end: "0%",
-    markers: { startColor: "blue", endColor: "red" },
   },
 });
 
@@ -16,7 +15,6 @@ const relatedwork = gsap.timeline({
     trigger: ".related-gsp",
     start: "top 80%",
     end: "0%",
-    markers: { startColor: "blue", endColor: "red" },
   },
 });
 

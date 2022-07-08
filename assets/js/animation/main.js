@@ -8,7 +8,6 @@ const counterTl = gsap.timeline({
     trigger: ".second-section",
     start: "top 80%",
     end: "0%",
-    markers: true,
   },
 });
 const oServices = gsap.timeline({
@@ -16,7 +15,6 @@ const oServices = gsap.timeline({
     trigger: ".third-section",
     start: "top 80%",
     end: "0%",
-    markers: { startColor: "blue", endColor: "black" },
   },
 });
 const oServicesGrid = gsap.timeline({
@@ -24,7 +22,6 @@ const oServicesGrid = gsap.timeline({
     trigger: ".gridse-gsp",
     start: "-5% 80%",
     end: "100%",
-    markers: { startColor: "yellow", endColor: "black" },
   },
 });
 const whyChoose = gsap.timeline({
@@ -32,7 +29,6 @@ const whyChoose = gsap.timeline({
     trigger: ".fourth-section",
     start: "top 80%",
     end: "0%",
-    markers: { startColor: "red", endColor: "red" },
   },
 });
 const ourWork = gsap.timeline({
@@ -40,7 +36,6 @@ const ourWork = gsap.timeline({
     trigger: ".sixth-section",
     start: "top 80%",
     end: "0%",
-    markers: { startColor: "blue", endColor: "red" },
   },
 });
 const letsStart = gsap.timeline({
@@ -48,7 +43,6 @@ const letsStart = gsap.timeline({
     trigger: ".eight-section",
     start: "top 80%",
     end: "0%",
-    markers: { startColor: "blue", endColor: "red" },
   },
 });
 
@@ -150,7 +144,7 @@ whyChoose.fromTo(
 
 whyChoose.fromTo(
   ".whybut-gsp",
-  { y: "-50" },
+  { y: "-20" },
   { y: 0, duration: 0.5, stagger: 0.2 },
   "<"
 );
