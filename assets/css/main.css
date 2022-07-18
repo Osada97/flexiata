@@ -10932,7 +10932,8 @@ textarea.form-control-lg {
     margin-left: auto;
     max-width: 250px;
     height: 100%;
-    background-color: #fff;
+    background-color: #fdfdfd;
+    box-shadow: -1px 0px 20px 0px #c7c0c0;
   }
   .navside-csoz ul li {
     text-align: center;
