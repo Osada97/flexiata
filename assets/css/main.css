@@ -10908,6 +10908,8 @@ textarea.form-control-lg {
 
 .navbar-toggler-icon {
   background-image: url(../../assets/img/list.svg) !important;
+  width: 2rem;
+  height: 2rem;
 }
 
 .navbar-toggler:focus {
